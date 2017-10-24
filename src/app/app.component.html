@@ -12,7 +12,7 @@
          [style.position]="'relative'"
          routerLinkActive="selected"
          [routerLink]="[menuItem.path]">
-        <md-icon *ngIf="menuItem.icon">{{menuItem.icon}}</md-icon>
+        <md-icon md-list-icon *ngIf="menuItem.icon">{{menuItem.icon}}</md-icon>
         <span>{{menuItem.title}}</span>
       </a>
     </md-nav-list>
